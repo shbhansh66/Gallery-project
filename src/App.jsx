@@ -24,7 +24,7 @@ if (userdata.length > 0) {
           
             <div key={elem.id || idx} className=''> 
               
-                <div className='h-20 w-20 sm:h-44 sm:w-44 rounded-xl overflow-hidden shadow-lg'>
+                <div className='h-20 w-18 sm:h-44 sm:w-44 rounded-xl overflow-hidden shadow-lg'>
                     <img 
                         className='w-full h-full object-cover transition duration-300 hover:scale-105' 
                         src={elem.download_url} 
@@ -34,7 +34,7 @@ if (userdata.length > 0) {
                 
                 {/* Author Name (Uncommented and styled) */}
                 
-                    <h6 className=' w-20 text-[8px] sm:text-sm md:w-44 text-gray-300 font-bold'>{elem.author}</h6>
+                    <h6 className=' w-18 text-[8px] sm:text-sm md:w-44 text-gray-300 font-bold'>{elem.author}</h6>
                
             </div>
         );
