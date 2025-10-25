@@ -50,7 +50,7 @@ const App = () => {
         // Show centered loading message when fetching data
         contentToDisplay = (
             <div className='w-full text-center p-20'>
-                <h1 className='text-gray-300 text-xl font-semibold'>Loading Images...</h1>
+                <h1 className='text-gray-300 text-xl font-semibold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>Loading Images...</h1>
             </div>
         );
     } else if (filteredData.length === 0 && searchTerm) {
